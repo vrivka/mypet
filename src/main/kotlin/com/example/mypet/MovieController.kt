@@ -12,3 +12,5 @@ class MovieController(
     @GetMapping
     fun getAll(): List<MovieDTO> = movieService.getAll()
 }
+
+// port 5432
